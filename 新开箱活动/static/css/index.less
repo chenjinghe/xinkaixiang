@@ -1,0 +1,88 @@
+.Capsule{
+  width: 750px;
+  height: 800px;
+  background: rgb(235, 155, 155);
+  background-size: 100%;
+  position: relative;
+  overflow-X:hidden; 
+  .rule {
+    font-size: 26px;
+    color: #fff;
+    position: absolute;
+    top: 313px;
+    left: 18px;
+    text-decoration: underline;
+  }
+  .getkey {
+    width: 156px;
+    height: 67px;
+    background: rgb(235, 155, 155);
+    background-size: 100%;
+    position: absolute;
+    font-size: 24px;
+    top: 289px;
+    right: 0;
+  }
+  .isgetkey {
+    animation: anim13 .7s ease-out infinite;
+  }
+  .keyNum{
+    width: 283px;
+    height: 72px;
+    // background: url("../../static/img/bg/keynum.png") no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 324px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 13;
+    text-align: right;
+    p{
+      line-height: 78px;
+      color: #fff;
+      position: absolute;
+      top: 0;
+      left: 210px;
+    }
+  }
+  .start {
+    width: 328px;
+    height: 137px;
+    background: url("../../static/img/twist1.png") no-repeat center;
+    background-size: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border:none;
+    background-color: transparent;
+    outline: none;
+  }
+  .isstart {
+    background: url("../../static/img/twist2.png") no-repeat center;
+    background-size: 100%;
+  }
+  .nokey {
+    background: url("../../static/img/twist2.png") no-repeat center;
+  }
+  #ballBox {
+    width: 575px;
+    height: 595px;
+    position: absolute;
+    left: 92px;
+    top: 0;
+    background: url("../../static/img/bg/bg-age.png") no-repeat;
+    background-size: 100%;
+    z-index: 12;
+  }
+}
+.footer {
+  position: absolute;
+  bottom: 35px;
+  width: 100%;
+  .noproess{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+  }
+}
